@@ -1,0 +1,36 @@
+.feature-card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 50px 10px;
+  border: none !important;
+  box-shadow: 0 0 25px 2px rgb(196 206 213 / 20%);
+  transition: all .6s;
+}
+.feature-card i {
+  color: #fb3b00;
+  font-size: 30px;
+}
+.feature-card h5 {
+  font-size: 18px;
+  color: #fb3b00;
+  font-weight: 700;
+}
+.feature-row{
+    margin-top: 90px !important;
+}
+.feature-card-second {
+    background-color: #fb3b00 !important;
+}
+.feature-card-second i{
+    color: white !important;
+}
+.feature-card-second h5{
+    color: white;
+}
+.feature-card:hover{
+    transform: scale(1.05);
+    background-color: #fb3b00;
+}
+.feature-card:hover i,.feature-card:hover h5{
+    color: white;
+}

@@ -1,0 +1,63 @@
+.bg-header{
+    background-image: url(../image/hero-header.jpg);
+    position: relative;
+    background-size:cover;
+    background-position: center center;
+    height: 700px;
+}
+.header-wr{
+        position: absolute;
+    top: 27%;
+    left: 13%;
+}
+.header-wr h1{
+        font-size: 20px;
+    display: inline;
+    color: #ff3c00;
+}
+.header-wr h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1;
+        color: #030925;
+            margin-top: 30px;
+}
+.header-wr h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    color: #030925;
+        margin-top: 30px;
+}
+.header-wr p{
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 35px;
+    line-height: 2;
+}
+.header-wr span{
+    color: #fb3b00;
+}
+.header-wr button{
+    display: inline-block;
+    padding: 14px 30px;
+    text-align: center;
+    position: relative;
+    margin-right: 15px;
+    z-index: 2;
+    transition: 1s;
+    background: #fb3b00;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+}
+.header-btn{
+    margin-top: 90px;
+}
+.header-btn button:hover{
+     background: #191f2d;
+}

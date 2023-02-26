@@ -1,0 +1,13 @@
+.process-card-body h5{
+font-size: 17px;
+    font-weight: 700;
+    color: #353535;
+}
+.process-card-body p{
+    font-size: 14px;
+    color: gray;
+}
+.process-card{
+        background-color: #fcfcfc !important;
+    border: none !important;
+}

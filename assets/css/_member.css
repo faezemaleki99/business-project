@@ -1,0 +1,40 @@
+.member-card {
+  border: none !important;
+  box-shadow: none !important;
+  text-align: center !important;
+}
+.member-card .card-body {
+  text-align: left !important;
+}
+.mem-img {
+  width: 300px;
+  transition: all 0.4s;
+}
+.mem-img img {
+  border-radius: 50px 10px 50px 10px;
+  border-right: 2px solid #ff6200;
+}
+.member-shadow {
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  border-radius: 50px 10px 50px 10px;
+  visibility: hidden;
+}
+.member-card .mem-img:hover .member-shadow {
+  visibility: visible;
+}
+.mem-icon {
+  right: 95px;
+  bottom: 10px;
+}
+.mem-icon i {
+  color: #080017;
+  transition: 0.3s;
+  font-size: 14px;
+}
+.mem-icon i:hover {
+  color: #ff6200;
+}
